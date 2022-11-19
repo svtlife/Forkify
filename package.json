@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "homepage": "https://svtlife.github.io/Forkify/",
-  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist",
+    "build": "parcel build index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
