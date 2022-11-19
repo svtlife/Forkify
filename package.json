@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://svtlife.github.io/Forkify/",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Viacheslav Shtackiy",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.25.0",
+    "fractional": "^1.0.0",
+    "gh-pages": "^4.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
